@@ -1,0 +1,15 @@
+<nb-card>
+        <div class="slider-container">
+          <ngx-temperature-dragger [(value)]="humidity" (power)="humidityOff = !$event"
+                                   [min]="humidityData.min" [max]="humidityData.max" [disableArcColor]="theme.arcEmpty"
+                                   [fillColors]="theme.arcFill" [thumbBg]="theme.thumbBg" [thumbBorderColor]="theme.thumbBorder">
+  
+            <div class="slider-value-container"  [ngClass]="{ 'off': humidityOff }">
+              <div class="value humidity h1">
+                90
+              </div>
+            </div>
+          </ngx-temperature-dragger>
+        </div>
+  </nb-card>
+  
