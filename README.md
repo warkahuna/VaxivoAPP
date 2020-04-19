@@ -1,2 +1,2 @@
-veuillez utiliser: npm install
-installer toutes les dépendances
+# veuillez utiliser: npm install
+pour installer toutes les dépendances
